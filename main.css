@@ -17,14 +17,14 @@
     top: 25px;
     right: 50px;
     cursor: pointer;
-    z-index: 999;
+    z-index: 1000;
   }
   
   .hamburger .line {
     display: block;
     width: 25px;
     height: 3px;
-    background-color: #111;
+    background-color: #eee;
     transition: all 0.3s;
   }
   
@@ -46,6 +46,7 @@
     clip-path: polygon(45% 0, 100% 0, 100% 100%, 70% 100%);
     transform: translateX(100%);
     transition: all 0.3s;
+    z-index: 999;
   }
   
   .nav-list {
@@ -88,12 +89,25 @@
   .nav-list li a:hover::after {
     width: 100%;
   }
-  
+  .home{
+      background: black;
+      width: 100%;
+      height: 100vh;
+  }
+  .home #logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
   section h1{
     color: #111;
     text-transform: uppercase;
     font-size: 50px;
     font-weight: lighter;
+    margin-top: 15px;
+    top: 50%;
+    transform: translateY(-50%);
   }
   
   .hamburger.clicked .line {
@@ -121,4 +135,7 @@
     opacity: 1;
     transition-delay: 0.3s;
   }
-  
+  .sample{
+      height: 100vh;
+      background-color: #eee;
+  }
