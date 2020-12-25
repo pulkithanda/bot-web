@@ -154,6 +154,7 @@
     font-weight: 700;
     stroke-width: 3.5;
     letter-spacing: 2px;
+    text-transform: uppercase;
     animation: svg-animate 5s linear forwards 0.1s;
   }
   @keyframes svg-animate{
