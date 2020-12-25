@@ -175,4 +175,8 @@
   }
   .bot-sec table{
     margin-top: 1rem;
+    color: white;
+    }
+  .bot-sec td{
+    padding: 5rem;
   }
