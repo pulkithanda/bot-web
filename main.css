@@ -148,3 +148,20 @@
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
   }
+  #logo text{
+    stroke: #eee;
+    font-size: 72px;
+    font-weight: 700;
+    stroke-width: 3.5;
+    letter-spacing: 2px;
+    animation: svg-animate 5s linear forwards 0.1s;
+  }
+  @keyframes svg-animate{
+    0%{
+      stroke-dasharray: 0 50%;
+    }
+    100%{
+      stroke-dasharray: 50% 0;
+    }
+  }
+  
