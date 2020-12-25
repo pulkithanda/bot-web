@@ -139,3 +139,12 @@
       height: 100vh;
       background-color: #eee;
   }
+  ::-webkit-scrollbar{
+    width: 5px;
+    background: black;
+  }
+  ::-webkit-scrollbar-thumb{
+    background: rgb(9, 102, 114);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
