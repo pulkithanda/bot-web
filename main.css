@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +10,7 @@
     display: grid;
     place-items: center;
     background-color: #eee;
-    font-family: "Century Gothic";
+    font-family: "Poppins", sans-serif;
   }
   
   .hamburger {
@@ -135,7 +136,47 @@
     opacity: 1;
     transition-delay: 0.3s;
   }
-  .sample{
+  .bots{
       height: 100vh;
-      background-color: #eee;
+      background: black;
+      width: 100%;
+    }
+  .bots h1{
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #eee;
+    margin-top: 1.5rem;
+  }
+  ::-webkit-scrollbar{
+    width: 5px;
+    background: black;
+  }
+  ::-webkit-scrollbar-thumb{
+    background: rgb(9, 102, 114);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  #logo text{
+    stroke: #eee;
+    font-size: 72px;
+    font-weight: 700;
+    stroke-width: 3.5;
+    font-family: 'Century Gothic', sans-serif;
+    letter-spacing: 2px;    animation: svg-animate 5s linear forwards 0.1s;
+
+  }
+  @keyframes svg-animate{
+    0%{
+      stroke-dasharray: 0 50%;
+    }
+    100%{
+      stroke-dasharray: 50% 0;
+    }
+  }
+  .bot-sec table{
+    margin-top: 1rem;
+    color: white;
+    }
+  .bot-sec td{
+    padding: 5rem;
   }
