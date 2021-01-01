@@ -15,7 +15,7 @@
   }
   
   .hamburger {
-    position: absolute;
+    position: fixed;
     top: 25px;
     right: 50px;
     cursor: pointer;
@@ -275,4 +275,16 @@
   margin-top: 1rem;
   margin-bottom: 1rem;
   color: #eee;
+}
+.link {
+  transition: background-size 0.4s ease;
+  background: linear-gradient(to bottom, transparent 62%, #fff87e 0) center center/0% 75% no-repeat;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.link:hover {
+  background-size: 100% 100%;
+}
+.link:active {
+  background-size: 80% 100%;
 }
