@@ -36,4 +36,3 @@ function city(e, city) {
     document.getElementById(city).style.display = 'block';
     e.currentTarget.classList.add('active');
 }
-

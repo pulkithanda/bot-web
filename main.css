@@ -142,11 +142,15 @@
       background: black;
       width: 100%;
     }
-  .bots h1{
+  .about h1,.bots h1{
     font-weight: 700;
     letter-spacing: 3px;
     color: #eee;
     margin-top: 1.5rem;
+  }
+  .about img{
+    width: 455px;
+    height: 100px;
   }
   ::-webkit-scrollbar{
     width: 5px;
